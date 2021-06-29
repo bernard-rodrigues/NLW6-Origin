@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OriginSix</title>
+    <title>beautysalon.</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon_io/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 
@@ -20,8 +27,18 @@
 <body>
     <header id="header">
         <nav class="container">
-            <a class="logo" href="#">beauty<span>salon</span>.</a>
-            <div class="menu">...</div>
+            <a class="logo" href="#">Laury<span>&amp;</span>Tiffany<span>'s.</span></a>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -29,10 +46,10 @@
         <section class="section" id="home">
             <div class="container grid">
                 <div class="image">
-                    <img src="assets/cover.jpg" alt="Mulher sorrindo penteando outra mulher">
+                    <img src="assets/images/cover.jpg" alt="Mulher sorrindo penteando outra mulher">
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para os seus cabelos</h1>
+                    <h2 class="title">Saúde natural para os seus cabelos</h2>
                     <p>
                         Um salão exclusivo em São Paulo, especializado em tratamentos naturais
                     </p>
@@ -44,12 +61,68 @@
         <div class="divider-1">
 
         </div>
-        <section class="section">
-            <div class="container">
-                Outra seção
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="assets/images/aboutUs.jpg" alt="Três cabeleireiras com utensilhos capilares">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt praesentium a fugiat vel
+                        aspernatur? Consequatur, libero rem. Sequi enim quod dolores rem voluptatem voluptatum, debitis
+                        magnam necessitatibus laudantium tempora quaerat.</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quibusdam sequi nostrum
+                        aliquam deleniti eum ratione minima possimus quisquam, at veniam enim repudiandae ducimus libero
+                        perspiciatis ea obcaecati ipsam praesentium?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, perspiciatis ab at qui asperiores
+                        labore perferendis error facere tempore maiores iste pariatur dignissimos officia quis
+                        reiciendis illo voluptatum dolores consequuntur?</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-2"></div>
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>Com mais de 10 anos no mercado, o <strong>Laury&amp;Tiffany's</strong> já conquistou clientes de
+                        inúmeros países com seus tratamentos exclusivos e totalmente naturais.</p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <img src="" alt="">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Terapia Capilar</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, voluptate repudiandae
+                            tenetur saepe accusantium dolorum illum. Veniam necessitatibus in laborum cupiditate, nam
+                            totam quia perferendis saepe laudantium quasi reprehenderit nobis.</p>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Cortes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eveniet impedit voluptas non
+                            ipsa aliquid qui eligendi voluptates! Corrupti reiciendis dolor excepturi asperiores ab qui
+                            eius ex distinctio atque doloremque.</p>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">Tratamentos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, provident accusamus. Adipisci
+                            natus quas optio maiores iure accusamus molestiae ullam qui quo ex reprehenderit, enim
+                            nesciunt error similique a odit?</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <script src="main.js"></script>
 
 </body>
 
